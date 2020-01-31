@@ -21,7 +21,7 @@ I forked a popular list of git-commands and added my own notes to serve as a gen
 * [Writing good Git Commit Messages](#writing-good-git-commit-messages)
   
 
-# Git Commands
+Git Commands
 ============
 
 ### Getting & Creating Projects
@@ -99,8 +99,8 @@ Use `git stash -a` to also stash ignored files.
 
 More information can be found [here](https://www.atlassian.com/git/tutorials/saving-changes/git-stash)
 
-# Good Practices
-================
+Good Practices
+==============
 
 ### Writing good Git Commit Messages
 
