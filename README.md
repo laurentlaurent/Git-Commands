@@ -1,3 +1,5 @@
+I forked a popular list of git-commands and added my own notes
+
 Git Commands
 ============
 
