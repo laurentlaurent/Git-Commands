@@ -4,19 +4,19 @@ I forked a popular list of git-commands and added my own notes to serve as a gen
 
 [Git Commands](#git-commands)
 
-* [Getting & Creating Projects](#getting-creating-projects)
+* [Getting & Creating Projects](#getting--creating-projects)
   
 * [Basic Snapshotting](#basic-snapshotting)
   
-* [Branching & Merging](#branching-&-merging)
+* [Branching & Merging](#branching--merging)
   
-* [Sharing & Updating Projects](#sharing-&-updating-projects)
+* [Sharing & Updating Projects](#sharing--updating-projects)
   
-* [Inspection & Comparison](#inspection-&-comparison)
+* [Inspection & Comparison](#inspection--comparison)
   
 * [Stashing](#stashing)
   
-[Good Practices]
+[Good Practices](#good-practices)
 
 * [Writing good Git Commit Messages](#writing-good-git-commit-messages)
   
