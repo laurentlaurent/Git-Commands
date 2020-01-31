@@ -74,4 +74,4 @@ Use `git stash -a` to also stash ignored files.
 | `git stash list`| List all saved stashes|
 | `git stash show` `-p`| List changes between current and stash with `-p` for full diff|
 
-More information can be found (here)[https://www.atlassian.com/git/tutorials/saving-changes/git-stash]
+More information can be found [here](https://www.atlassian.com/git/tutorials/saving-changes/git-stash)
