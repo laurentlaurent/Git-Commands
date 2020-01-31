@@ -1,15 +1,25 @@
 I forked a popular list of git-commands and added my own notes to serve as a general Git Guide
 
 # Sections
+
 [Git Commands](#git-commands)
-  [Getting & Creating Projects](#getting-&-creating-projects)
+
+  [Getting & Creating Projects](#getting-&amp-creating-projects)
+  
   [Basic Snapshotting](#basic-snapshotting)
+  
   [Branching & Merging](#branching-&-merging)
+  
   [Sharing & Updating Projects](#sharing-&-updating-projects)
+  
   [Inspection & Comparison](#inspection-&-comparison)
+  
   [Stashing](#stashing]
+  
 [Good Practices]
+
   [Writing good Git Commit Messages](#writing-good-git-commit-messages]
+  
 
 # Git Commands
 ============
