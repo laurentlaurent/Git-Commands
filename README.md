@@ -35,7 +35,7 @@ Git Commands
 | `git checkout -- [file-name.txt]` | Discard changes to a file |
 | `git merge [branch name]` | Merge a branch into the active branch |
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
-| `git stash` | Stash changes in a dirty working directory |
+| `git stash` | Stash changes in a dirty working directory [see Stash section](#stashing) |
 | `git stash clear` | Remove all stashed entries |
 
 ### Sharing & Updating Projects
@@ -59,3 +59,19 @@ Git Commands
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+
+### Stashing
+
+Git only stashes staged and tracked files by default.
+
+Use `git stash -u` to also stash untracked files.
+Use `git stash -a` to also stash ignored files.
+
+| Command | Description |
+| ------- | ----------- |
+| `git stash pop`| Reapply saved stash (can use stash@{id} for specific stashes and delete the stash|
+| `git stash apply`| Reapply saved stash and keep it stashed|
+| `git stash list`| List all saved stashes|
+| `git stash show` `-p`| List changes between current and stash with `-p` for full diff|
+
+More information can be found (here)[https://www.atlassian.com/git/tutorials/saving-changes/git-stash]
