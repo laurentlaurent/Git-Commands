@@ -1,6 +1,17 @@
-I forked a popular list of git-commands and added my own notes
+I forked a popular list of git-commands and added my own notes to serve as a general Git Guide
 
-Git Commands
+# Sections
+[Git Commands](#git-commands)
+  [Getting & Creating Projects](#getting-&-creating-projects)
+  [Basic Snapshotting](#basic-snapshotting)
+  [Branching & Merging](#branching-&-merging)
+  [Sharing & Updating Projects](#sharing-&-updating-projects)
+  [Inspection & Comparison](#inspection-&-comparison)
+  [Stashing](#stashing]
+[Good Practices]
+  [Writing good Git Commit Messages](#writing-good-git-commit-messages]
+
+# Git Commands
 ============
 
 ### Getting & Creating Projects
@@ -77,3 +88,20 @@ Use `git stash -a` to also stash ignored files.
 | `git stash show` `-p`| List changes between current and stash with `-p` for full diff|
 
 More information can be found [here](https://www.atlassian.com/git/tutorials/saving-changes/git-stash)
+
+# Good Practices
+================
+
+### Writing good Git Commit Messages
+
+From [How to write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
+
+1. Separate subject from body with a blank line
+2. Limit the subject line to 50 characters
+3. Capitalize the subject line
+4. Do not end the subject line with a period
+5. Use the imperative mood in the subject line
+6. Wrap the body at 72 characters
+7. Use the body to explain what and why vs. how
+
+```Fix typo in README.md``` instead of ```Fixed typo in READMEmd.```
