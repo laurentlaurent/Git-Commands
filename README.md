@@ -102,7 +102,9 @@ More information can be found [here](https://www.atlassian.com/git/tutorials/sav
 ### Archiving Branches
 
 `git tag archive/<branchname> <branchname>`
+
 `git branch -d <branchname>`
+
 `git checkout master`
 
 Retrieving the archived branch
