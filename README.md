@@ -122,6 +122,16 @@ Then, update remote
 
 `git push --tags`
 
+### Overwrite Local Branch
+[Source](https://www.freecodecamp.org/forum/t/git-pull-how-to-override-local-files-with-git-pull/13216)
+
+`git fetch (--all)`
+
+`git reset (--hard <remote>/<branch_name>)` i.e. `git reset --hard origin/master`
+
+
+
+
 Good Practices
 ==============
 
