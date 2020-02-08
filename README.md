@@ -112,6 +112,12 @@ Retrieving the archived branch
 
 `git checkout -b new_branch_name archive/<branchname>`
 
+My solution (from remote)
+
+`git tag archive/<branchname> remotes/origin/<branchname>`
+
+`git push origin --delete <branchname>`
+
 Good Practices
 ==============
 
