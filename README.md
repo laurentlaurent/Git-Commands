@@ -99,6 +99,16 @@ Use `git stash -a` to also stash ignored files.
 
 More information can be found [here](https://www.atlassian.com/git/tutorials/saving-changes/git-stash)
 
+### Archiving Branches
+
+`git tag archive/<branchname> <branchname>`
+`git branch -d <branchname>`
+`git checkout master`
+
+Retrieving the archived branch
+
+`git checkout -b new_branch_name archive/<branchname>`
+
 Good Practices
 ==============
 
