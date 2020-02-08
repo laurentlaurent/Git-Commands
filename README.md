@@ -35,7 +35,7 @@ Git Commands
 
 | Command | Description |
 | ------- | ----------- |
-| `git status` | Check status |
+| `git status` | Check status (also -s for short, --porcelain for pretty)|
 | `git add [file-name.txt]` | Add a file to the staging area |
 | `git add -A` | Add all new and changed files to the staging area |
 | `git commit -m "[commit message]"` | Commit changes |
@@ -129,7 +129,11 @@ Then, update remote
 
 `git reset (--hard <remote>/<branch_name>)` i.e. `git reset --hard origin/master`
 
+### Overwrite Remote Branch
 
+`git push --force-with-lease` (better way, won't push if unknown state)
+
+`git push --force` (unsafe way)
 
 
 Good Practices
