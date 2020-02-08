@@ -118,6 +118,10 @@ My solution (from remote)
 
 `git push origin --delete <branchname>`
 
+Then, update remote
+
+`git push --tags`
+
 Good Practices
 ==============
 
