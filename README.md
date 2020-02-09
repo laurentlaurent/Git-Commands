@@ -15,6 +15,14 @@ I forked a popular list of git-commands and added my own notes to serve as a gen
 * [Inspection & Comparison](#inspection--comparison)
   
 * [Stashing](#stashing)
+
+* [Changing a commit](#changing-a-commit)
+
+* [Archiving Branches](#archiving-branches)
+
+* [Overwrite Local Branch](#overwrite-local-branch)
+
+* [Overwrite Remote Branch](#overwrite-remote-branch)
   
 [Good Practices](#good-practices)
 
