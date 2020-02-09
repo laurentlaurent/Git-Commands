@@ -99,6 +99,14 @@ Use `git stash -a` to also stash ignored files.
 
 More information can be found [here](https://www.atlassian.com/git/tutorials/saving-changes/git-stash)
 
+### Changing a commit
+
+`git rebase -i HEAD~n` use a commit before the one you want to change
+
+Use VIM to pick/reword/...
+
+`git pull` + `git push` (sometimes need `--force`)
+
 ### Archiving Branches
 [Source](https://stackoverflow.com/questions/35738790/how-to-close-a-branch-in-git)
 
