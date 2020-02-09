@@ -16,6 +16,8 @@ I forked a popular list of git-commands and added my own notes to serve as a gen
   
 * [Stashing](#stashing)
 
+[Git Guides](#git-guides)
+
 * [Changing a commit](#changing-a-commit)
 
 * [Archiving Branches](#archiving-branches)
@@ -106,6 +108,8 @@ Use `git stash -a` to also stash ignored files.
 | `git stash show` `-p`| List changes between current and stash with `-p` for full diff|
 
 More information can be found [here](https://www.atlassian.com/git/tutorials/saving-changes/git-stash)
+
+## Git Guides
 
 ### Changing a commit
 
