@@ -25,6 +25,8 @@ I forked a popular list of git-commands and added my own notes to serve as a gen
 * [Overwrite Local Branch](#overwrite-local-branch)
 
 * [Overwrite Remote Branch](#overwrite-remote-branch)
+
+* [Delete Sensitive Files from Git](#delete-sensitive-files-from-git)
   
 [Good Practices](#good-practices)
 
@@ -155,14 +157,16 @@ Then, update remote
 
 `git push --force` (unsafe way)
 
-Delete Sensitive Files from Git
-===============================
+### Delete Sensitive Files from Git
 
-See this [page](https://help.github.com/en/github/authenticating-to-github/removing-sensitive-data-from-a-repository)
+[Source](https://help.github.com/en/github/authenticating-to-github/removing-sensitive-data-from-a-repository)
+
+See [BFG guide](https://rtyley.github.io/bfg-repo-cleaner/) use `bfg` instead of the java commands (make sure to mirror)
+
+Can also use `git filter-branch` (more details in source)
 
 
-Good Practices
-==============
+## Good Practices
 
 ### Writing good Git Commit Messages
 
