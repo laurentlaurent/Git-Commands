@@ -1,6 +1,10 @@
 I forked a popular list of git-commands and added my own notes to serve as a general Git Guide
 
-# Sections
+# Git Help
+
+## Sections
+
+[Git Basics](#git-basics)
 
 [Git Commands](#git-commands)
 
@@ -16,7 +20,7 @@ I forked a popular list of git-commands and added my own notes to serve as a gen
   
 * [Stashing](#stashing)
 
-[Git Guides](#git-guides)
+[Advanced Git Guides](#advanced-git-guides)
 
 * [Changing a commit](#changing-a-commit)
 
@@ -31,10 +35,44 @@ I forked a popular list of git-commands and added my own notes to serve as a gen
 [Good Practices](#good-practices)
 
 * [Writing good Git Commit Messages](#writing-good-git-commit-messages)
-  
 
-Git Commands
-============
+## Git Basics
+
+### Accessing a repo
+
+Two ways of accessing a repo, one by cloning, and the other one by `git init`.
+
+#### Cloning
+
+While your terminal is at the folder where you want to clone the repo, execute `git clone <repolink.git>`. When you `cd` into the repo folder, your git should now be at `master`
+
+#### Existing Folder
+
+If you have an existing folder where you want to place the files of the repo, you should use the `git init` workflow instead.
+
+Navigate to your folder using the terminal. Execute `git init`. This will create the `.git` files that Git needs to function. Your terminal might now indicate that you are in a Git folder.
+
+Then, enter `git remote add origin <repolink.git>`. This tells Git that the remote repo (aka upstream) is at `<repolink.git>`.
+
+Now, pull the remote files using `git pull`. Your folder should now fill with the repo files and you are ready to work on `master`.
+
+### Branches
+
+#### Update your branch cache
+
+When there are new branches created, Git does not automatically update your cache. Use the command `git fetch -a` to receive a list of all the branches available at the remote.
+
+#### Creating a new branch
+
+While you don't always need to, you should do `git pull` and `git fetch -a` to ensure that you have the latest version locally. This is especially true for if you're trying to create a branch off `master`.
+
+First `git checkout <branch>` you want to start your new branch from.
+
+Then, execute `git checkout -b <nameOfnewBranch>` to create a branch.
+
+Alternatively, you can just do `git checkout -b <nameOfnewBranch> origin/<branch>`.
+
+## Git Commands
 
 ### Getting & Creating Projects
 
@@ -111,7 +149,7 @@ Use `git stash -a` to also stash ignored files.
 
 More information can be found [here](https://www.atlassian.com/git/tutorials/saving-changes/git-stash)
 
-## Git Guides
+## Advanced Git Guides
 
 ### Changing a commit
 
