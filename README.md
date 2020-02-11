@@ -66,7 +66,7 @@ Now, pull the remote files using `git pull`. Your folder should now fill with th
 
 #### Update your branch cache
 
-When there are new branches created, Git does not automatically update your cache. Use the command `git fetch -a` to receive a list of all the branches available at the remote.
+When there are new branches created, Git does not automatically update your cache. Use the command `git fetch -a` to receive a list of all the branches available at the remote. Then use `git branch -a` to see a list of all the branches (including those at the remote).
 
 #### Creating a new branch
 
