@@ -6,6 +6,12 @@ I forked a popular list of git-commands and added my own notes to serve as a gen
 
 [Git Basics](#git-basics)
 
+* [Accessing a repo](#accessing-a-repo)
+
+* [Using Branches](#branches)
+
+* [Typical Workflow](#typical-workflow)
+
 [Git Commands](#git-commands)
 
 * [Getting & Creating Projects](#getting--creating-projects)
@@ -88,7 +94,7 @@ Finally, push the commit with `git push`.
 
 #### Reverting some changes
 
-tbd
+If you've tried something, it's not working and you would like to go back to a previous edition of the file you have modified, you can use `git checkout <nameOfFile>`. There is also `git reset` that will reset all changes to the nearest commit and `git revert` that can revert the changes of files you have committed. Check the commands help page for more usage information. This is why _frequent commits_ and _frequent pushes_ are important, as you risk losing all your work if you do not do it often enough.
 
 ## Git Commands
 
