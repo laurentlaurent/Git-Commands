@@ -72,6 +72,24 @@ Then, execute `git checkout -b <nameOfnewBranch>` to create a branch.
 
 Alternatively, you can just do `git checkout -b <nameOfnewBranch> origin/<branch>`.
 
+### Typical workflow
+
+While you are contributing to a repo, there is a typical workflow you will be doing all the time.
+
+#### Staging, Commiting, Pushing
+
+After you've done some modifications, you use `git add <fileName>` to stage them (add them to your commit). Alternatively, you can use `git add .` or `git add *` to stage all modified files.
+
+Then you commit the changes by giving them a [Good commit message](#writing-good-git-commit-messages) using `git commit -m "[#issueNumber] PresentTenseVerb + detail"`. Alternatively, you could do the `add` and `commit` in one step using `git commit -am "<commit message>"`. Note that this `-am` command only stages and commit files already tracked by Git (if you created any new files, they will be ignored, so you'll have to use `git add <file>`.
+
+Before you push the commit, ensure that your branch has been updated with any new commits from the remote by executing `git pull`.
+
+Finally, push the commit with `git push`.
+
+#### Reverting some changes
+
+tbd
+
 ## Git Commands
 
 ### Getting & Creating Projects
